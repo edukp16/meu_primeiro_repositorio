@@ -7,5 +7,5 @@ tamanho_senha = int(input('Quantos caracteres sua senha terá?'))
 senha = ""
 for i in range(tamanho_senha):
     senha += random.choice(caracteres)
-
+    
 print('Sua senha gerada é: ', senha)
